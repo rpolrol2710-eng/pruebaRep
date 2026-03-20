@@ -1,5 +1,6 @@
 package org.iis2024;
 
+import java.sql.SQLOutput;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -59,6 +60,10 @@ public class Date {
     this.day = day;
     this.month = month;
     this.year = year;
+  }
+
+  public void Owner(){
+    System.out.println("Metodo creado por el propietario");
   }
 
   /**
