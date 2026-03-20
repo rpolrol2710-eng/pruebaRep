@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
-  private int fieldAddedByCollaborator;
+  private int fieldAddedByCollaborator
   private final int day;
   private final int month;
   private final int year;
@@ -57,7 +57,7 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
+  public Date(int dia, int mes, int año) {
     this.day = dia;
     this.month = mes;
     this.year = año;
